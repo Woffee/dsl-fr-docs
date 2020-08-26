@@ -58,7 +58,7 @@ heading_anchors: true
 # Aux links for the upper right navigation
 aux_links:
   "DSL-FR on GitHub":
-    - "//github.com/Woffee/DSL4IP"
+    - "//github.com/Woffee/DSL-FR"
 
 # Makes Aux links open in a new tab. Default is false
 aux_links_new_tab: false

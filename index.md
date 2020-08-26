@@ -10,7 +10,7 @@ last_modified_date: 2020-08-19T17:54:08+0000
 # DSL-FR: A Domain Specific Language for Flooding Resilience
 {: .fs-9 }
 
-![Demo]({{ site.imgbaseurl }}demo1.png)
+![Demo]({{ site.imgbaseurl }}demo4.png)
 
 DSL-FR is a programming language designed to bridge the gap between domain scientists and programmers, make it easier to write high readability code for image processing tasks. 
 {: .fs-6 .fw-300 }

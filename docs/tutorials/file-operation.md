@@ -8,7 +8,7 @@ nav_order: 309
 # File operation
 
 
-	open "car.png" as image
-		...
-	end open
+    open "car.png" as image
+        ...
+    end open
 

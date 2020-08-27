@@ -12,7 +12,7 @@ nav_order: 301
 
 ### Hello-world
 
-Comments start with a #, and DSL4IP will ignore them:
+Comments start with a #, and DSL-FR will ignore them:
     
     # this is a comment
     print "Hello-world"

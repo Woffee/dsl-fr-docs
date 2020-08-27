@@ -7,6 +7,8 @@ nav_order: 100
 # Combined Models
 {: .no_toc }
 
+We have combined many image recognition models. Such as image segmentation models, object detection models (including people, animals, vehicles, etc.), age and facial expression recognition models. These models are public models designed by other scholars, implemented by different programming languages, such as python and C++.
+
 ![Models]({{ site.imgbaseurl }}models.png)
 
 

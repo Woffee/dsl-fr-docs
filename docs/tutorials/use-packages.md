@@ -12,13 +12,3 @@ nav_order: 311
 
 A module is composed of classes and methods. A module is composed of classes and functions. Write them into a file, and the file name (without extension) is the module name.
 
-
-### Type extensions
-
-DSL-FR provides an `extend` keyword that allows programmers to add and modify methods of various types at compile-time, including built-in types like `int` or `string`. 
-
-```
-extend image
-    function save( filepath )
-        ... # save image to the given filepath
-```

@@ -7,8 +7,6 @@ nav_order: 312
 
 # Relationships
 
-
-
     print smiles.linear_relationship with persons 
     
     # output:

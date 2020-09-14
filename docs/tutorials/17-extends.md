@@ -1,7 +1,7 @@
 ---
 layout: default
-title: Modules
-parent: Type extensions
+title: Type extensions
+parent: Tutorials
 nav_order: 317
 ---
 

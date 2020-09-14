@@ -76,7 +76,7 @@ s1 = set of [ 1, 2, 2, 3]  # s1 will be [1,2,3] because duplicate elements will 
 | Attribute        | Type    | Description       
 |:-------------|:------------------|:---------|
 | filename | string | filename of the image |
-| date | datatime | create date of the image |
+| date | datetime | create date of the image |
 | tag | string | tag of the image |
 | ... |  | other attributes defined by users |
 
@@ -141,7 +141,7 @@ exists img in images that img.contain(dog)
 
  - `ifall`
 
-As long as one images meets the condition, execute the following code.
+Only all images meet the condition, execute the following code.
 
 ```
 ifall img in images that img.contain(dog)

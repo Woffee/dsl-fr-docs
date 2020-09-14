@@ -10,16 +10,40 @@ nav_order: 310
 
 ---
 
-### Detect objects
 
-    set persons to imgs.detect(person) 
-    set smiles to imgs.detect(smile) 
+### Domain specific functions
+
+ - `get()` 
+ 
+ Get an attribute of an object.
+
+```
+function get( attr [, attr2...] ) of obj
+    ...
+    return attr
+```
 
 
-### Filter
-    
-    set imgs to images where containing car 
-    set imgs to images where containing car and house_price of images > price
+ - `select()` 
+
+ Detect and return objects from images.
+
+```
+function select( obj_name [, obj_name2...] ) from images
+    ...
+    return objects
+```
+ 
+ 
+ - `mark()` 
+
+ Identify objects from images and mark the boundaries of the objects.
+
+```
+function mark( obj_name [, obj_name2...] ) in images
+    ...
+    return images
+```
     
 
 

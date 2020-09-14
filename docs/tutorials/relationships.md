@@ -9,7 +9,7 @@ nav_order: 312
 
 
 
-    print smiles.linear( persons )
+    print smiles.linear_relationship with persons 
     
     # output:
     # smiles = 0.7 * persons

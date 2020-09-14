@@ -7,13 +7,15 @@ nav_order: 313
 
 # Visualizations
 
+- `draw`
 
+```
+draw histogram with { 
+    'x_axis': stats of persons
+}
 
-    draw a histogram with properties { 
-        'x_axis': stats of persons
-    }
-    
-    draw a scatter plot with properties { 
-        'x_axis': stats of persons, 
-        'y_axis': stats of smiles
-    }
+draw scatter_plot with { 
+    'x_axis': stats of persons, 
+    'y_axis': stats of smiles
+}
+```

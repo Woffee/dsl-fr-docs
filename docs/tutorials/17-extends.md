@@ -1,19 +1,11 @@
 ---
 layout: default
 title: Modules
-parent: Tutorials
-nav_order: 311
+parent: Type extensions
+nav_order: 317
 ---
 
-# Modules
-
-
-### User-defined modules
-
-A module is composed of classes and methods. A module is composed of classes and functions. Write them into a file, and the file name (without extension) is the module name.
-
-
-### Type extensions
+# Type extensions
 
 DSL-FR provides an `extend` keyword that allows programmers to add and modify methods of various types at compile-time, including built-in types like `int` or `string`. 
 

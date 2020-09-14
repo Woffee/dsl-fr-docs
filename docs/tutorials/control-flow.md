@@ -10,25 +10,19 @@ nav_order: 306
 
 ---
 
-## Selection
+## Control Flow
 
-### if-else
+ - `if-else`
 
-Equals: a == b
-Not Equals: a != b
-Less than: a < b
-Less than or equal to: a <= b
-Greater than: a > b
-Greater than or equal to: a >= b
+```
+if var1 > var2 
+    ...
+else if var1 < var2 
+    ...
+else
+    ...
 
-    if var1 > var2 then
-        # do something
-    else if var1 < var2 then
-        # do something 
-    else
-        # do something
-    end if
-
+```
 ## Iteration
 
 ### foreach

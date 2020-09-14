@@ -80,7 +80,7 @@ function select( obj_name [, obj_name2...] ) from images
 ```
 function mark( obj_name [, obj_name2...] ) in images
     ...
-    return images
+    return marked_images
 ```
 
 
